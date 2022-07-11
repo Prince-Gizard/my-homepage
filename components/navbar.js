@@ -16,16 +16,19 @@ import {
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button.js'
+import { IoLogoGithub } from 'react-icons/io5'
 
-const LinkItem = ({ href, path, children, }) => {
+const LinkItem = ({ href, path, target, children, ...props }) => {
   const active = path === href
   const inactiveColor = useColorModeValue('gray200', 'whiteAlpha.900')
   return (
-    <NextLink href={href} passHref>
+    <NextLink href={href} passHref scroll={false}>
       <Link
         p={2}
         bg={active ? 'grassTeal' : undefined}
         color={active ? '#202023' : inactiveColor}
+        target={target}
+        {...props}
       >
         {children}
       </Link>
@@ -68,28 +71,26 @@ const Navbar = props => {
         flexGrow={1}
         mt={{ base: 4, md: 0 }}
         >
-
           <LinkItem href="/works" path={path}>
             Works
           </LinkItem>
           <LinkItem href="/posts" path={path}>
             Posts
           </LinkItem>
-
           <LinkItem
             target="_blank"
-            href="https://github.com/Prince-Gizard/buraev-website.git"
+            href="https://github.com/Prince-Gizard/my-homepage.git"
             path={path}
             display="inline-flex"
             alignItems="center"
             style={{ gap: 4 }}
             pl={2} >
-            Source
+          Source <IoLogoGithub/>
           </LinkItem>
           </Stack>
 
           <Box flex={1} align="right">
-            <ThemeToggleButton  />
+            <ThemeToggleButton />
             <Box ml={2} display={{base:'inline-block', md: 'none'}}>
             <Menu>
             <MenuButton

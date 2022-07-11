@@ -1,7 +1,7 @@
 {
-  "name": "my-website",
-  "version": "1.0.0",
-  "description": "",
+  "name": "my-homepage",
+  "version": "0.0.1",
+  "description": "special thanks mr. Takuya Matsuyama and 荒木 飛呂彦 ",
   "main": "index.js",
   "scripts": {
     "dev": "next dev",
@@ -11,7 +11,7 @@
     "lint": "next lint"
   },
   "keywords": [],
-  "author": "Buraev Vasilii",
+  "author": "Vasilii Buraev",
   "license": "MIT",
   "dependencies": {
     "@chakra-ui/icons": "^1.1.7",
