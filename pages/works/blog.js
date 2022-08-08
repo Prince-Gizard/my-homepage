@@ -17,7 +17,7 @@ const Work = () => (
         <ListItem>
           <Meta>Website</Meta>
           <Link href="https://buraev-blog.netlify.app/">
-            'https://buraev-blog.netlify.app/' <ExternalLinkIcon mx="2px" />
+            buraev-blog.netlify.app <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>

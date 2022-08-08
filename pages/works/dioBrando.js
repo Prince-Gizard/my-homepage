@@ -8,7 +8,7 @@ const Work = () => (
   <Layout title="Dio Brando">
     <Container>
       <Title>
-       Dio Terminal <Badge>2022</Badge>
+       Linux Terminal Website <Badge>2022</Badge>
       </Title>
       <P>
         Your first wasn’t JoJo! It was me, Dio!
@@ -22,7 +22,7 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Platform</Meta>
-          <span>All World</span>
+          <span>PC/Mobile</span>
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
