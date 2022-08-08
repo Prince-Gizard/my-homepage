@@ -5,31 +5,31 @@ import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Work = () => (
-  <Layout title="Cute Website">
+  <Layout title="My Blog">
     <Container>
       <Title>
-       Cute Website <Badge>2022</Badge>
+       My Blog <Badge>2022</Badge>
       </Title>
       <P>
-       Personal portfolio website 
+        My personal blog. Forked from Gatsby blog starter.
       </P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://github.com/Prince-Gizard/buraev-website.git">
-            https://github.com/Prince-Gizard/buraev-website.git <ExternalLinkIcon mx="2px" />
+          <Link href="https://buraev-blog.netlify.app/">
+            'https://buraev-blog.netlify.app/' <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
           <Meta>Platform</Meta>
-          <span>Windows/macOS/Linux/iOS/Android</span>
+          <span>Desctop/Mobile</span>
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>Next.js, Chakra UI, Framer Motion, Three.js</span>
+          <span>Gatsby, Netlify CMS</span>
         </ListItem>
       </List>
-      <WorkImage src="/images/works/cuteWebsite.png" alt="cuteWebsite" />
+      <WorkImage src="/images/works/blog.png" alt="blog" />
     </Container>
   </Layout>
 )
