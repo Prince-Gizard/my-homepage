@@ -15,9 +15,9 @@ const Work = () => (
       </P>
       <List ml={4} my={4}>
         <ListItem>
-          <Meta>Website</Meta>
+          <Meta>Git</Meta>
           <Link href="https://github.com/Prince-Gizard/buraev-website.git">
-            https://github.com/Prince-Gizard/buraev-website.git <ExternalLinkIcon mx="2px" />
+            https://github.com/Prince-Gizard/my-homepage <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
