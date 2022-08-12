@@ -16,7 +16,7 @@ const Work = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Git</Meta>
-          <Link href="https://github.com/Prince-Gizard/buraev-website.git">
+          <Link href="https://github.com/Prince-Gizard/my-homepage">
             https://github.com/Prince-Gizard/my-homepage <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
