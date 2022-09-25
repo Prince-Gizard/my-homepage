@@ -1,6 +1,11 @@
 # My Homepage
-![website screenshot](./public/images/works/cuteWebsite.png)
+
 [https://vasilii-buraev.vercel.app/](https://vasilii-buraev.vercel.app/)
+
+## Showcase
+Visit my website:
+[![website screenshot](./public/images/works/cuteWebsite.png)](https://vasilii-buraev.vercel.app/)
+
 ## Stack
 
 - [Next.js](https://nextjs.org/) - A React framework with hybrid static & server rendering, and route pre-fetching, etc.
