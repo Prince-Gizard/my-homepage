@@ -1,5 +1,5 @@
 # My Homepage
-
+![website screenshot](./puplic/images/works/cuteWebsite.png)
 [https://vasilii-buraev.vercel.app/](https://vasilii-buraev.vercel.app/)
 ## Stack
 
