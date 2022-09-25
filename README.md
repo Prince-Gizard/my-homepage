@@ -1,6 +1,6 @@
 # My Homepage
 
-[https://vasilii-buraev.vercel.app/](https://vasilii-buraev.vercel.app/)
+[https://vasilii-buraev.vercel.app/](https://vasilii-buraev.vercel.app)
 
 ## Showcase
 Visit my website:
