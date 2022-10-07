@@ -7,12 +7,12 @@ import cuteWebsite from '../public/images/works/cuteWebsite.png'
 import cryptoTest from '../public/images/works/cryptoTest.png'
 import dioBrando from '../public/images/works/dioBrando.png'
 import blog from '../public/images/works/blog.png'
-
-
+import whatUses from '../public/images/wuShi.png'
 const Works = () => {
   return (
     <Layout>
     <Container>
+
       <Heading as='h3' fountSize={20} mb={4}>
        Works
       </Heading>
@@ -48,6 +48,12 @@ const Works = () => {
       <Section delay={0.1}>
         <WorkGridItem id="dioBrando" title="Dio terminal" thumbnail={dioBrando}>
           Linux terminal website
+        </WorkGridItem>
+      </Section>
+    
+      <Section delay={0.1}>
+        <WorkGridItem id="whatUses" title="What I Use" thumbnail={whatUses}>
+          List of tech i use
         </WorkGridItem>
       </Section>
 
