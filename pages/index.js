@@ -8,6 +8,7 @@ import {
   List,
   SimpleGrid,
   ListItem,
+  useColorModeValue
 } from '@chakra-ui/react'
 import { BioSection, BioYear } from '../components/bio'
 import {ChevronRightIcon} from '@chakra-ui/icons'
@@ -30,10 +31,11 @@ const Page = () => {
       <Box 
         id="my-text" 
         borderRadius="lg"
-        bg="#ff6b81" 
+        bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} 
         mb={6} 
         p={3} 
         align="center"
+        css={{ backdropFilter: 'blur(10px)' }}
       >
         Hello, I&apos;m frontend developer based in Moscow
       </Box>
