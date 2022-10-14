@@ -7,7 +7,8 @@ import cuteWebsite from '../public/images/works/cuteWebsite.png'
 import cryptoTest from '../public/images/works/cryptoTest.png'
 import dioBrando from '../public/images/works/dioBrando.png'
 import blog from '../public/images/works/blog.png'
-import whatUses from '../public/images/wuShi.png'
+import whatUses from '../public/images/works/pigLorem.png'
+import mamaPhoto from '../public/images/works/pigLorem.png'
 const Works = () => {
   return (
     <Layout>
@@ -19,7 +20,7 @@ const Works = () => {
 
     <SimpleGrid columns={[1, 1, 2]} gap={6}>
       <Section delay={0.1}>
-        <WorkGridItem id="cuteWebsite" title="Cute Website" thumbnail={cuteWebsite}>
+       <WorkGridItem id="cuteWebsite" title="Cute Website" thumbnail={cuteWebsite}>
           My personal website inspired by TM
         </WorkGridItem>
       </Section>
@@ -56,6 +57,13 @@ const Works = () => {
           List of tech i use
         </WorkGridItem>
       </Section>
+      
+      <Section delay={0.1}>
+        <WorkGridItem id="mamaPhoto" title="Site for Photographer" thumbnail={mamaPhoto}>
+          Site for children photographer 
+        </WorkGridItem>
+      </Section>
+
 
     </SimpleGrid>
 

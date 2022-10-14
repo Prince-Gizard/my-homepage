@@ -5,19 +5,21 @@ import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Work = () => (
-  <Layout title="What I Use">
+  <Layout title="Site for photographer">
     <Container>
       <Title>
-       What I Use <Badge>2022</Badge>
+       Website for chelldrens photographer <Badge>2022</Badge>
       </Title>
       <P>
-        List of the tech i use by Takuya Matsuyama from Japan
+       Gmm..my mom is a photographer and she needs a websit..dude, 
+you are a programmer.. in general, make her a websit.. <br/>
+    © my dude Andrew  
       </P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://uses-vasilii-buraev.vercel.app/">
-            uses-vasilii-buraev.vercel.app <ExternalLinkIcon mx="2px" />
+          <Link href="">
+            coming soon <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
@@ -26,7 +28,12 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>Astro, Tailwind CSS, React, Headless UI</span>
+          <span> 
+            Next.js,
+            MUI,
+            Strapi,
+            Vercel & Heroku
+           </span>
         </ListItem>
       </List>
       <WorkImage src="/images/works/pigLorem.png" alt="Lorem Ipsum" />
