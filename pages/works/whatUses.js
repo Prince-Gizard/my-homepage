@@ -29,7 +29,8 @@ const Work = () => (
           <span>Astro, Tailwind CSS, React, Headless UI</span>
         </ListItem>
       </List>
-      <WorkImage src="/images/works/pigLorem.png" alt="Lorem Ipsum" />
+      <WorkImage src="/images/works/whatIuse.png" alt="Lorem Ipsum" />
+
     </Container>
   </Layout>
 )

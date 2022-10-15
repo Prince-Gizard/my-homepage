@@ -7,7 +7,7 @@ import cuteWebsite from '../public/images/works/cuteWebsite.png'
 import cryptoTest from '../public/images/works/cryptoTest.png'
 import dioBrando from '../public/images/works/dioBrando.png'
 import blog from '../public/images/works/blog.png'
-import whatUses from '../public/images/works/pigLorem.png'
+import whatUses from '../public/images/works/whatIuse.png'
 import mamaPhoto from '../public/images/works/pigLorem.png'
 const Works = () => {
   return (
