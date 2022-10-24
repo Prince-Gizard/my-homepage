@@ -77,6 +77,16 @@ const Navbar = props => {
           <LinkItem href="/posts" path={path}>
             Posts
           </LinkItem>
+            <LinkItem
+            target = '_blank'
+            href = 'https://uses-vasilii-buraev.vercel.app/'
+            path = {path}
+            display="inline-flex"
+            alignItems="center"
+            style={{ gap: 4 }}
+            pl={2} >
+              Devices
+          </LinkItem>
           <LinkItem
             target="_blank"
             href="https://github.com/Prince-Gizard/my-homepage.git"
@@ -109,13 +119,16 @@ const Navbar = props => {
               <NextLink href="/posts" passHref>
                 <MenuItem as={Link}>Posts</MenuItem>
               </NextLink>
+              <MenuItem as={Link} href='https://uses-vasilii-buraev.vercel.app'>
+                Devices
+              </MenuItem>
               <MenuItem
                 as={Link}
                 href="https://github.com/Prince-Gizard"
               >
                 GitHub
               </MenuItem>
-            </MenuList>
+                       </MenuList>
             </Menu>
             </Box>
           </Box>
