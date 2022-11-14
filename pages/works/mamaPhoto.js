@@ -18,8 +18,8 @@ you are a programmer.. in general, make her a websit.. <br/>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="">
-            coming soon <ExternalLinkIcon mx="2px" />
+          <Link href="https://childrens-photographer.vercel.app/">
+            see demo <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
